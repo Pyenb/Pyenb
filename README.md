@@ -1,9 +1,13 @@
-<h1 align="center">Hi 👋, I'm Ben</h1>
+<h1 align="center">Hey there👋, I'm Ben</h1>
 <h3 align="center">A hobby programmer from Germany</h3>
 
 - 🔭 I’m currently working on [Smarty](https://github.com/Anonyvius/Smarty)
 
 - 🌱 I’m currently learning **ImageAI**
+
+- 👨‍💻 All of my projects are available on [GitHub](GitHub)
+
+- ⚡ Fun fact **I am fully self taught**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
