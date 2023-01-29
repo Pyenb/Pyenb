@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on [Smarty](https://github.com/Anonyvius/Smarty)
 
-- 🌱 I’m currently learning **ImageAI**
+- 🌱 I’m currently learning [ImageAI](https://github.com/OlafenwaMoses/ImageAI)
 
 - 👨‍💻 All of my projects are available on [GitHub](https://github.com/Anonyvius)
 
