@@ -1,11 +1,11 @@
 <h1 align="center">Hey there👋, I'm Ben</h1>
 <h3 align="center">A hobby programmer from Germany</h3>
 
-- 🔭 I’m currently working on [Smarty](https://github.com/Anonyvius/Smarty)
+- 🔭 I’m currently working on [Smarty](https://github.com/Pyenb/Smarty)
 
 - 🌱 I’m currently learning [ImageAI](https://github.com/OlafenwaMoses/ImageAI)
 
-- 👨‍💻 All of my projects are available on [GitHub](https://github.com/Anonyvius)
+- 👨‍💻 All of my projects are available on [GitHub](https://github.com/Pyenb)
 
 - ⚡ Fun fact **I am fully self taught**
 
