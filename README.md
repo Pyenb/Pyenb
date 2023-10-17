@@ -2,14 +2,13 @@
 <h3 align="center">A hobby programmer from Germany</h3>
 
 - 🔭 I’m currently working on an [Outlook desktop ad blocker](https://github.com/Pyenb/Outlook-desktop-ad-blocker)
-- 🌱 Recently, I have been more focused on work.
+- 🌱 Recently, I have been more focused on university.
 - ⚡ Nano will always be better than vim!
 ---
 
 <h3 align="left">Languages and Tools:</h3>
 
-<div align="left">
-</div>
+<div align="left"></div>
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="40" alt="bash logo"  />
