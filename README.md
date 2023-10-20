@@ -1,5 +1,8 @@
-<h1 style="text-align:center">Hey there👋, I'm Ben</h1>
-<h3 style="text-align:center">A hobby programmer and CS student from Germany</h3>
+<div align="center">
+  <h1>Hey there👋, I'm Ben</h1>
+  <h3>A hobby programmer and CS student from Germany</h3>
+</div>
+
 
 - 🔭 I’m currently working on an [Outlook desktop ad blocker](https://github.com/Pyenb/Outlook-desktop-ad-blocker)
 - 🌱 Recently, I have been more focused on university.
