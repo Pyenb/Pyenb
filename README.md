@@ -61,5 +61,5 @@
 ---
 
 <p align="center">
-  <img src="https://i.ibb.co/805vZjz/banner.png" width="200" />
+  <img src="https://i.ibb.co/805vZjz/banner.png" width="500" />
 </p>
