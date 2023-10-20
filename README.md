@@ -1,5 +1,5 @@
-<h1 align="center">Hey there👋, I'm Ben</h1>
-<h3 align="center">A hobby programmer from Germany</h3>
+<h1 style="text-align:center">Hey there👋, I'm Ben</h1>
+<h3 style="text-align:center">A hobby programmer and CS student from Germany</h3>
 
 - 🔭 I’m currently working on an [Outlook desktop ad blocker](https://github.com/Pyenb/Outlook-desktop-ad-blocker)
 - 🌱 Recently, I have been more focused on university.
@@ -8,7 +8,7 @@
 
 <h3 align="left">Languages and Tools:</h3>
 
-<div align="left"></div>
+<div></div>
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="40" alt="bash logo"  />
