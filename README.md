@@ -4,7 +4,7 @@
 </div>
 
 
-- 🔭 I’m currently working on an [Outlook desktop ad blocker](https://github.com/Pyenb/Outlook-desktop-ad-blocker)
+- 🔭 I’m currently working on my Homelab setup and portfolio website.
 - 🌱 Recently, I have been more focused on university.
 - ⚡ Nano will always be better than vim!
 ---
