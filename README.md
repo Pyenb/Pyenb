@@ -34,7 +34,7 @@
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/?username=pyenb&count_private=true&theme=midnight-purple&showicons=true" height="150" alt="stats graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Pyenb&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=midnight-purple&hide_border=false&order=2" height="150" alt="languages graph"  />
-  <img src="https://streak-stats.demolab.com?user=Pyenb&theme=midnight-purple&hide_border=true" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=Pyenb&theme=midnight-purple&hide_border=true&mode=weekly" height="150" alt="GitHub Streak" />
 </div>
 
 ---
