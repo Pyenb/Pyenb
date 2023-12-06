@@ -7,6 +7,7 @@
 - 🔭 I’m currently working on my Homelab setup and portfolio website.
 - 🌱 Check out my [Outlook desktop ad blocker](https://github.com/Pyenb/Outlook-desktop-ad-blocker).
 - ⚡ Nano will always be better than vim!
+- ![](https://komarev.com/ghpvc/?username=Pyenb&color=blueviolet)
 ---
 
 <h3 align="left">Languages and Tools:</h3>
@@ -46,8 +47,8 @@
 ---
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/?username=pyenb&count_private=true&theme=dracula&showicons=true" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Pyenb&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/?username=pyenb&count_private=true&theme=midnight-purple&showicons=true" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Pyenb&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=midnight-purple&hide_border=false&order=2" height="150" alt="languages graph"  />
 </div>
 
 ---
