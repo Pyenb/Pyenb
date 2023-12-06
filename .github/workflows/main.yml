@@ -60,12 +60,15 @@ jobs:
           plugin_music_time_range: medium
           plugin_music_top_type: tracks
           plugin_music_user: ben_beletage
+          client_id: ${{ secrets.CLIENT_ID }}
+          client_secret: ${{ secrets.CLIENT_SECRET }}
+          refresh_token: ${{ secrets.REFRESH_TOKEN }}
           plugin_repositories: yes
           plugin_repositories_featured: Outlook-desktop-ad-blocker, fail2telegram
           plugin_repositories_order: featured, pinned, starred, random
           plugin_stackoverflow: yes
           plugin_stackoverflow_limit: 2
-          plugin_stackoverflow_lines: 4
+          plugin_stackoverflow_lines: 0
           plugin_stackoverflow_lines_snippet: 2
           plugin_stackoverflow_sections: answers-top, questions-recent
           plugin_stackoverflow_user: 10079440
@@ -79,3 +82,4 @@ jobs:
           plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
           plugin_wakatime_url: https://wakatime.com
           plugin_wakatime_user: Pyenb
+          plugin_wakatime_token: ${{ secrets.WAKA }}
