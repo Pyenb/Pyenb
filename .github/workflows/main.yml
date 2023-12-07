@@ -23,10 +23,14 @@ jobs:
           config_timezone: Europe/Berlin
           
           repositories_affiliations: owner
+          # NOT WORKING
           repositories_skipped: |
             @use.patterns
             
-            -HWR-Ubungen/uebung*
+            -HWR-Ubungen/*
+            -HomelabKinau/*
+          
+          users_ignored: lagopodus, majaguenther, theoleuthardt
 
           extras_css: |
             h1 {color: #8A2BE2;}
@@ -42,14 +46,14 @@ jobs:
           plugin_introduction: yes
           plugin_introduction_title: yes
           
-          # ISOCAL
+          # ISOCALENDAR
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
           
           # LANGUAGES
           plugin_languages: yes
           plugin_languages_sections: most-used
-          plugin_languages_ignored: tex, css, html, c
+          #plugin_languages_ignored: tex, css, html, c, perl, inno setup, javascript
 
           
           # LINES
@@ -70,7 +74,7 @@ jobs:
           
           # REPOSITORIES
           plugin_repositories: yes
-          plugin_repositories_featured: Outlook-desktop-ad-blocker, fail2telegram
+          plugin_repositories_featured: Outlook-desktop-ad-blocker, fail2telegram, 
           plugin_repositories_order: featured
           
           # STACKOVERFLOW
