@@ -26,7 +26,8 @@ jobs:
           repositories_skipped: |
             @use.patterns
             
-            -HWR-Ubungen/*
+            -HWR-Ubungen/uebung*
+            -uebung*
 
           extras_css: |
             h1 {
@@ -35,6 +36,10 @@ jobs:
             h2 {
               color: #8A2BE2;
             }
+            div.name {
+              color: #8A2BE2;
+            }
+            
           
           # ACHIEVEMENTS
           plugin_achievements: yes
