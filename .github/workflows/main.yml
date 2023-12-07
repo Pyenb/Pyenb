@@ -105,3 +105,7 @@ jobs:
           plugin_steam_sections: recently-played
           plugin_steam_user: "76561198220847360"
           plugin_steam_recent_games_limit: 2
+
+          # LEETCODE
+          plugin_leetcode: yes
+          plugin_leetcode_user: Pyenb
