@@ -27,12 +27,10 @@ jobs:
             @use.patterns
             
             -HWR-Ubungen/uebung*
-            -uebung*
 
           extras_css: |
             h1 {color: #8A2BE2;}
             h2 {color: #8A2BE2;}
-            span {color: #8A2BE2;}
           
           # ACHIEVEMENTS
           plugin_achievements: yes
@@ -51,9 +49,9 @@ jobs:
           # LANGUAGES
           plugin_languages: yes
           plugin_languages_sections: most-used
-          plugin_languages_skipped: uebung6, uebung5, uebung4, uebung3, uebung2
-          plugin_languages_threshold: 2%
+          plugin_languages_threshold: 1%
           plugin_languages_other: yes 
+          plugin_languages_ignored: tex, css, html, c
 
           
           # LINES
