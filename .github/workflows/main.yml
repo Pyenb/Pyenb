@@ -23,14 +23,13 @@ jobs:
           config_timezone: Europe/Berlin
           
           repositories_affiliations: owner
-          repositories_skipped: HWR-Ubungen/*
+          repositories_skipped: |
+            @use.patterns
+            HWR-Ubungen/*
 
           extras_css: |
             h2 {
-              color: purple;
-            }
-            h3 {
-              color: purple;
+              color: #800080;
             }
           
           # ACHIEVEMENTS
