@@ -14,15 +14,6 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # Your GitHub token
-          # The following scopes are required:
-          #  - public_access (default scope)
-          #  - repo
-          # The following additional scopes may be required:
-          #  - read:org      (for organization related metrics)
-          #  - read:user     (for user related data)
-          #  - read:packages (for some packages related data)
-          #  - repo          (optional, if you want to include private repositories)
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
@@ -70,7 +61,7 @@ jobs:
           
           plugin_repositories: yes
           plugin_repositories_featured: Outlook-desktop-ad-blocker, fail2telegram
-          plugin_repositories_order: featured, pinned, starred, random
+          plugin_repositories_order: featured
           
           plugin_stackoverflow: yes
           plugin_stackoverflow_limit: 1
@@ -94,4 +85,5 @@ jobs:
           
           plugin_steam: yes
           plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
+          plugin_steam_sections: recently-played
           plugin_steam_user: "76561198220847360"
