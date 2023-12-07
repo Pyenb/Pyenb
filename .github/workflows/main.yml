@@ -33,6 +33,9 @@ jobs:
           extras_css: |
             h1 {color: #8A2BE2;}
             h2 {color: #8A2BE2;}
+            h3 {color: #8A2BE2;}
+            .field {color: #8A2BE2;}
+            .name {color: #8A2BE2;}
           
           # ACHIEVEMENTS
           plugin_achievements: yes
@@ -104,7 +107,7 @@ jobs:
           plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
           plugin_steam_sections: recently-played
           plugin_steam_user: "76561198220847360"
-          plugin_steam_recent_games_limit: 2
+          plugin_steam_recent_games_limit: 1
 
           # LEETCODE
           plugin_leetcode: yes
