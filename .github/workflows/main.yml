@@ -25,11 +25,15 @@ jobs:
           repositories_affiliations: owner
           repositories_skipped: |
             @use.patterns
-            HWR-Ubungen/*
+            
+            -HWR-Ubungen/*
 
           extras_css: |
+            h1 {
+              color: #8A2BE2;
+            }
             h2 {
-              color: #800080;
+              color: #8A2BE2;
             }
           
           # ACHIEVEMENTS
