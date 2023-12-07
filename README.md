@@ -1,5 +1,5 @@
-<p align="center"><img src="/github-metrics.svg" alt="Metrics"></p>
-  
+[<img align="center" alt="🦑" src="/github-metrics.svg">](#)
+
 ---
 
 <p align="center">
