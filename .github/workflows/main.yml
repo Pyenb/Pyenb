@@ -34,6 +34,7 @@ jobs:
             h1 {color: #8A2BE2;}
             h2 {color: #8A2BE2;}
             h3 {color: #F38CFE;}
+            .name {color: #F38CFE;}
           
           # ACHIEVEMENTS
           plugin_achievements: yes
