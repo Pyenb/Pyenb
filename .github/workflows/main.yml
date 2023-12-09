@@ -114,16 +114,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: github-metrics
     steps:
-      - name: Replace main color
+      - name: Replace blue -> pruple
         uses: MathieuSoysal/replace-string-in-file@v1.0.0
         with:
           file: github-metrics.svg
-          old-string: .name span:first-child{color:#58a6ff}
-          new-string: .name span:first-child{color:#F38CFE}
-      
-      - name: Replace steam color
-        uses: MathieuSoysal/replace-string-in-file@v1.0.0
-        with:
-          file: github-metrics.svg
-          old-string: .name{display:flex;align-items:center;justify-content:space-between;font-size:14px;line-height:14px;color:#58a6ff}
-          new-string: .name{display:flex;align-items:center;justify-content:space-between;font-size:14px;line-height:14px;color:#F38CFE}
+          old-string: 58a6ff
+          new-string: F38CFE
