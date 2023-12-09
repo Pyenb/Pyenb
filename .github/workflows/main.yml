@@ -114,26 +114,16 @@ jobs:
     runs-on: ubuntu-latest
     needs: github-metrics
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-      
       - name: Replace main color
-        uses: richardrigutins/replace-in-files@v2
+        uses: MathieuSoysal/replace-string-in-file@v1.0.0
         with:
-          files: 'github-metrics.svg'
-          search-text: '.name span:first-child{color:#58a6ff}'
-          replacement-text: '.name span:first-child{color:#F38CFE}'
+          file: github-metrics.svg
+          old-string: .name span:first-child{color:#58a6ff}
+          new-string: .name span:first-child{color:#F38CFE}
       
-      - name: Replace secondary color
-        uses: richardrigutins/replace-in-files@v2
+      - name: Replace steam color
+        uses: MathieuSoysal/replace-string-in-file@v1.0.0
         with:
-          files: 'github-metrics.svg'
-          search-text: '.name{display:flex;align-items:center;justify-content:space-between;font-size:14px;line-height:14px;color:#58a6ff}'
-          replacement-text: '.name{display:flex;align-items:center;justify-content:space-between;font-size:14px;line-height:14px;color:#F38CFE}'
-
-      - name: Replace readme test
-        uses: richardrigutins/replace-in-files@v2
-        with:
-          files: 'README.md'
-          search-text: 'TESST'
-          replacement-text: 'ABSDG'
+          file: github-metrics.svg
+          old-string: .name{display:flex;align-items:center;justify-content:space-between;font-size:14px;line-height:14px;color:#58a6ff}
+          new-string: .name{display:flex;align-items:center;justify-content:space-between;font-size:14px;line-height:14px;color:#F38CFE}
