@@ -130,3 +130,10 @@ jobs:
           files: 'github-metrics.svg'
           search-text: '.name{display:flex;align-items:center;justify-content:space-between;font-size:14px;line-height:14px;color:#58a6ff}'
           replacement-text: '.name{display:flex;align-items:center;justify-content:space-between;font-size:14px;line-height:14px;color:#F38CFE}'
+
+      - name: Replace readme test
+        uses: richardrigutins/replace-in-files@v2
+        with:
+          files: 'README.md'
+          search-text: 'TESST'
+          replacement-text: 'ABSDG'
