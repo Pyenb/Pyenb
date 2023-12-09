@@ -1488,7 +1488,7 @@ h3 {color: #F38CFE;}
                                     </svg>
                                     <div class="name">
                                         <span>Niek/chatgpt-web</span>
-                                        <span>starred 24 hours ago</span>
+                                        <span>starred 1 day ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">ChatGPT web interface using the OpenAI API</div>
@@ -2161,7 +2161,7 @@ h3 {color: #F38CFE;}
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 9 Dec 2023, 15:07:38 (timezone Europe/Berlin) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 9 Dec 2023, 16:08:03 (timezone Europe/Berlin) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
