@@ -109,8 +109,11 @@ jobs:
           # LEETCODE
           plugin_leetcode: yes
           plugin_leetcode_user: Pyenb
-      
+
       - uses: actions/checkout@v2
+      - name: Pull latest changes from remote
+        run: git pull origin master
+
       - name: Replace string in SVG
         if: success()
         run: |
