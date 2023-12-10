@@ -112,10 +112,12 @@ jobs:
           plugin_leetcode_user: Pyenb
           
       - name: Replace string in SVG
+        if: success()
         run: |
           sed -i 's/58a6ff/F38CFE/g' github-metrics.svg
 
       - name: Commit changes
+        if: success()
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
