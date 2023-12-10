@@ -34,22 +34,6 @@ jobs:
             h1 {color: #8A2BE2;}
             h2 {color: #8A2BE2;}
             h3 {color: #F38CFE;}
-          
-          extras_js: |
-            const fs = require('fs');
-
-            const filePath = 'path/to/your/example.svg';
-
-            fs.readFile(filePath, 'utf8', (err, data) => {
-              if (err) throw err;
-
-              const result = data.replace(/58a6ff/g, 'F38CFE');
-
-              fs.writeFile(filePath, result, 'utf8', (err) => {
-                if (err) throw err;
-                console.log('String replaced successfully!');
-              });
-            });
 
           # ACHIEVEMENTS
           plugin_achievements: yes
@@ -126,13 +110,6 @@ jobs:
           plugin_leetcode: yes
           plugin_leetcode_user: Pyenb
 
-  replace-colors:
-    runs-on: ubuntu-latest
-    needs: github-metrics
-    steps:
-      - name: Replace blue -> pruple
-        uses: MathieuSoysal/replace-string-in-file@v1.0.0
-        with:
-          file: github-metrics.svg
-          old-string: 58a6ff
-          new-string: F38CFE
+      - name: Replace string in SVG
+        run: |
+          sed -i 's/58a6ff/F38CFE/g' github-metrics.svg
