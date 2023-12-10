@@ -114,3 +114,9 @@ jobs:
       - name: Replace string in SVG
         run: |
           sed -i 's/58a6ff/F38CFE/g' github-metrics.svg
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -am "Replace string 58a6ff with F38CFE"
