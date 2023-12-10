@@ -112,4 +112,4 @@ jobs:
 
       - name: Replace string in SVG
         run: |
-          sed -i 's/58a6ff/F38CFE/g' github-metrics.svg
+          sed -i 's/58a6ff/F38CFE/g' ../../github-metrics.svg
