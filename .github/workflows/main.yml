@@ -122,3 +122,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git commit -am "Replace string 58a6ff with F38CFE"
+      
+      - name: Push changes
+        if: success()
+        run: git push origin HEAD:main
