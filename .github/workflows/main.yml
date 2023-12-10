@@ -12,6 +12,7 @@ jobs:
     permissions:
       contents: write
     steps:
+      - uses: actions/checkout@v2
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -109,7 +110,7 @@ jobs:
           # LEETCODE
           plugin_leetcode: yes
           plugin_leetcode_user: Pyenb
-
+          
       - name: Replace string in SVG
         run: |
-          sed -i 's/58a6ff/F38CFE/g' ../../github-metrics.svg
+          sed -i 's/58a6ff/F38CFE/g' github-metrics.svg
