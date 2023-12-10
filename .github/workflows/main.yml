@@ -112,6 +112,7 @@ jobs:
 
       - uses: actions/checkout@v2
       - name: Pull latest changes from remote
+        if: success()
         run: git pull origin master
 
       - name: Replace string in SVG
