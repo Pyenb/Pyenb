@@ -192,7 +192,7 @@ h3 {color: #F38CFE;}</style>
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M2.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h10.5a.25.25 0 00.25-.25V4.664a.25.25 0 00-.073-.177l-2.914-2.914a.25.25 0 00-.177-.073H2.75zM1 1.75C1 .784 1.784 0 2.75 0h7.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16H2.75A1.75 1.75 0 011 14.25V1.75zm7 1.5a.75.75 0 01.75.75v1.5h1.5a.75.75 0 010 1.5h-1.5v1.5a.75.75 0 01-1.5 0V7h-1.5a.75.75 0 010-1.5h1.5V4A.75.75 0 018 3.25zm-3 8a.75.75 0 01.75-.75h4.5a.75.75 0 010 1.5h-4.5a.75.75 0 01-.75-.75z"/>
                                     </svg>
-                                    24.7k added, 3k removed
+                                    23.1k added, 2.85k removed
                                 </div>
                             </section>
                             <section>
@@ -2143,7 +2143,7 @@ h3 {color: #F38CFE;}</style>
                                         </div>
                                     </div>
                                     <div class="achievement">
-                                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOcOnfpfwAGfgLYttYINwAAAABJRU5ErkJggg==" alt="" />
+                                        <img src="data:image/jpg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAgACADASIAAhEBAxEB/8QAGgABAAIDAQAAAAAAAAAAAAAABwUGAAIDBP/EAC0QAAEEAgEDAQcEAwAAAAAAAAECAwQGBREAByExEhMUIkFRYdIVFlKBlaLB/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/ACp6ZgMXWK049Vok+ZNiOuvPrmvtkqS+4gdkq14SOR6s9XHE6NHhA/M/qcr8ucrAhBq9OUnyYcjevr705xJ6RUPDyadItVggoyupbcZqI88plhpCl+gvOFIJIB321oAcA4Tma4nuqkwvsBkpP5ckWXa1lqrZlMVWHj5kSG26w+idIcUFF9tB0lSteFHip1l6aVX9oS7NSCzHcxyUGZFjrUpspJA2AruD32D4IHBquISKrclkjaYcfX9ym+BlgUk1Wlga9SYUn1D7+9Of85fOifV5FDCoOUjuyccsnXstepsk78fMb7/bZ875VHIlfyddr4fs0SBMiRnGno64b7h9ReWsfElOvChzxrwVdSQRdIX+Nk/jwEXqt1WxGUw2Xx9XOWfczXs0zpORUB6W0KUpLbSR4HxEHfy+p78M6sUpql2Dp7qgx/Tv6iW3zdOCwK3Bu3w9fyGPkaH+vJMQq9i61YQzaIk+XKittsx0Qn2yVB5Cz3UnXhJ4H//Z" alt="" />
                                         <div>
                                             <div class="name">
                                                 <div>Chump Change</div>
@@ -2165,7 +2165,7 @@ h3 {color: #F38CFE;}</style>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 10 Dec 2023, 13:30:58 (timezone Europe/Berlin) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 10 Dec 2023, 14:18:50 (timezone Europe/Berlin) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
