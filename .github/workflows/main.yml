@@ -35,9 +35,6 @@ jobs:
             h2 {color: #8A2BE2;}
             h3 {color: #F38CFE;}
 
-          # BASE
-          base_indepth: yes
-
           # ACHIEVEMENTS
           plugin_achievements: yes
           plugin_achievements_display: compact
@@ -55,7 +52,6 @@ jobs:
           
           # LANGUAGES
           plugin_languages: yes
-          plugin_languages_indepth: yes
           plugin_languages_sections: most-used
           plugin_languages_ignored: tex, css, html, c, perl, inno setup, javascript
 
