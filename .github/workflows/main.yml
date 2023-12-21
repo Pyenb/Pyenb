@@ -26,9 +26,11 @@ jobs:
           repositories_skipped: |
             @use.patterns
 
+            -*/*
+            +Pyenb/*
             -Pyenb/Hyprland_configs
-            -HWR-Ubungen/*
-            -HomelabKinau/*
+            #  -HWR-Ubungen/*
+          #  -HomelabKinau/*
           
           extras_css: |
             h1 {color: #8A2BE2;}
