@@ -29,7 +29,7 @@ jobs:
             -*/*
             +Pyenb/*
             -Pyenb/Hyprland_configs
-            #  -HWR-Ubungen/*
+          #  -HWR-Ubungen/*
           #  -HomelabKinau/*
           
           extras_css: |
