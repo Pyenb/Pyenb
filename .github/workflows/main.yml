@@ -110,7 +110,7 @@ jobs:
           plugin_leetcode: yes
           plugin_leetcode_user: Pyenb
 
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Pull latest changes from remote
         if: success()
         run: git pull origin master
@@ -125,7 +125,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git commit -am "Replace string 58a6ff with F38CFE"
+          git commit -am "Replace color 58A6FF with F38CFE"
       
       - name: Push changes
         if: success()
