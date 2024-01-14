@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="/github-metrics.svg" alt="Metrics">
+  <a href="https://github.com/Pyenb" target="_blank">
+    <img src="/github-metrics.svg" alt="Metrics">
+  </a>
 </p>
 
 <p align="center">
@@ -15,5 +17,7 @@
 ---
 
 <p align="center">
-  <img src="https://i.ibb.co/805vZjz/banner.png" width="400" />
+  <a href="https://en.wikipedia.org/wiki/Sic_semper_tyrannis" target="_blank">
+    <img src="https://i.ibb.co/805vZjz/banner.png" width="400" />
+  </a>
 </p>
