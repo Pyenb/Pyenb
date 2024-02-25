@@ -18,6 +18,6 @@
 
 <p align="center">
   <a href="https://en.wikipedia.org/wiki/Sic_semper_tyrannis" target="_blank">
-    <img src="https://i.ibb.co/805vZjz/banner.png" width="400" />
+    <img src="images/banner.png" width="400" />
   </a>
 </p>
