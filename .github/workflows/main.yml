@@ -52,7 +52,7 @@ jobs:
           # LANGUAGES
           plugin_languages: yes
           plugin_languages_sections: most-used
-          plugin_languages_ignored: tex, css, html, perl, javascript, c
+          # plugin_languages_ignored: tex, css, html, perl, javascript, c
 
           
           # LINES
