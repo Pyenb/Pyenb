@@ -74,7 +74,7 @@ jobs:
           
           # REPOSITORIES
           plugin_repositories: yes
-          plugin_repositories_featured: Outlook-desktop-ad-blocker, fail2telegram
+          plugin_repositories_featured: Outlook-desktop-ad-blocker, fail2telegram, Keychron_mice_software_updater, Pi-hole-blocklist
           plugin_repositories_order: featured
           
           # STACKOVERFLOW
