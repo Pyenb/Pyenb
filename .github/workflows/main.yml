@@ -52,7 +52,7 @@ jobs:
           # LANGUAGES
           plugin_languages: yes
           plugin_languages_sections: most-used
-          # plugin_languages_ignored: tex, css, html, perl, javascript, c
+          plugin_languages_ignored: tex, css, html, perl, javascript
 
           
           # LINES
@@ -76,7 +76,7 @@ jobs:
           plugin_repositories: yes
           plugin_repositories_featured: Outlook-desktop-ad-blocker, fail2telegram, Keychron_mice_software_updater, Pi-hole-blocklist
           plugin_repositories_order: featured
-          
+
           # STACKOVERFLOW
           plugin_stackoverflow: yes
           plugin_stackoverflow_limit: 1
