@@ -19,7 +19,7 @@ jobs:
           user: Pyenb
           template: classic
           config_timezone: Europe/Berlin
-          config_order: base.header, base.activity, base.community, base.repositories, base.metadata, languages, lines, repositories, isocalender, stars, wakatime, gist, leetcode, achievements, pagespeed, music, steam
+          config_order: base.header, base.activity+community, base.repositories, languages, lines, repositories, isocalendar, stars, wakatime, gists, leetcode, achievements, pagespeed, music, steam
           
           repositories_affiliations: owner
           repositories_skipped: |
