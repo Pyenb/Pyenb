@@ -1,4 +1,3 @@
-# Visit https://github.com/lowlighter/metrics#-documentation for full reference
 name: Metrics
 on:
   # Schedule updates (each hour)
@@ -27,7 +26,6 @@ jobs:
             @use.patterns
 
             -Pyenb/Hyprland_configs
-            -HomelabKinau/*
           
           extras_css: |
             h1 {color: #8A2BE2;}
@@ -54,23 +52,11 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_ignored: tex, css, html, perl, javascript
 
-          
           # LINES
           plugin_lines: yes
           plugin_lines_history_limit: 1
           plugin_lines_repositories_limit: 4
           plugin_lines_sections: base
-          
-          # MUSIC
-          plugin_music: yes
-          plugin_music_limit: 3
-          plugin_music_mode: recent
-          plugin_music_provider: spotify
-          plugin_music_time_range: medium
-          plugin_music_top_type: tracks
-          plugin_music_user: ben_beletage
-          plugin_music_played_at: no
-          plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
           
           # REPOSITORIES
           plugin_repositories: yes
@@ -78,13 +64,16 @@ jobs:
           plugin_repositories_order: featured
 
           # STACKOVERFLOW
-          plugin_stackoverflow: yes
+          plugin_stackoverflow: no
           plugin_stackoverflow_limit: 1
           plugin_stackoverflow_lines: 0
           plugin_stackoverflow_lines_snippet: 0
           plugin_stackoverflow_sections: answers-top
           plugin_stackoverflow_user: 10079440
           
+          # GISTS
+          plugin_gists: yes
+
           # STARS
           plugin_stars: yes
           plugin_stars_limit: 3
@@ -94,15 +83,31 @@ jobs:
           plugin_wakatime: yes
           plugin_wakatime_user: Pyenb
           plugin_wakatime_repositories_visibility: public
-          plugin_wakatime_days: 7
+          plugin_wakatime_days: 30
           plugin_wakatime_limit: 5
           plugin_wakatime_token: ${{ secrets.WAKA }}
           
+          # GOOGLE PAGESPEED
+          plugin_pagespeed: yes
+          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
+          plugin_pagespeed_url: https://pyenb.network
+
+          # MUSIC
+          plugin_music: yes
+          plugin_music_limit: 3
+          plugin_music_mode: recent
+          plugin_music_provider: spotify
+          plugin_music_time_range: medium
+          plugin_music_top_type: tracks
+          plugin_music_user: ${{ secrets.SPOTIFY_USER }}
+          plugin_music_played_at: no
+          plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
+
           # STEAM
           plugin_steam: yes
           plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
           plugin_steam_sections: recently-played
-          plugin_steam_user: "76561198220847360"
+          plugin_steam_user: "${{ secrets.STEAM_USER }}"
           plugin_steam_recent_games_limit: 1
 
           # LEETCODE
