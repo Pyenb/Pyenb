@@ -19,7 +19,7 @@ jobs:
           user: Pyenb
           template: classic
           config_timezone: Europe/Berlin
-          config_order: base.header, base.activity+community, base.repositories, languages, lines, repositories, isocalendar, stars, wakatime, gists, leetcode, achievements, pagespeed, music, steam
+          config_order: base.header, base.activity+community, base.repositories, languages, lines, isocalendar, repositories, stars, wakatime, gists, achievements, leetcode, pagespeed, music, steam
           
           repositories_affiliations: owner
           repositories_skipped: |
@@ -44,7 +44,7 @@ jobs:
           plugin_lines_sections: base
 
           # REPOSITORIES
-          plugin_repositories: yes
+          plugin_repositories: no
           plugin_repositories_featured: Outlook-desktop-ad-blocker, fail2telegram, Keychron_mice_software_updater, Pi-hole-blocklist
           plugin_repositories_order: featured
           
@@ -53,7 +53,7 @@ jobs:
           plugin_isocalendar_duration: half-year
           
           # STARS
-          plugin_stars: yes
+          plugin_stars: no
           plugin_stars_limit: 3
           plugin_traffic: yes
           
