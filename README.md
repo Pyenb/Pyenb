@@ -21,7 +21,3 @@
     <img src="images/banner.png" width="400" />
   </a>
 </p>
-
-<p align="center">
-  <small style="color: grey;">contact@pyenb.network</small>
-</p>
