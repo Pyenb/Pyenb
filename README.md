@@ -22,6 +22,6 @@
   </a>
 </p>
 
-<p align="center" style="font-size: x-small; color: grey;">
-  <a style="color: grey;">contact@pyenb.network</a>
+<p align="center">
+  <small style="color: grey;">contact@pyenb.network</small>
 </p>
