@@ -23,5 +23,5 @@
 </p>
 
 <p align="center" style="font-size: x-small; color: grey;">
-  <a href="mailto:contact@pyenb.network" style="color: grey;">contact@pyenb.network</a>
+  <a style="color: grey;">contact@pyenb.network</a>
 </p>
