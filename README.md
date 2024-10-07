@@ -21,3 +21,7 @@
     <img src="images/banner.png" width="400" />
   </a>
 </p>
+
+<p align="center" style="font-size: small;">
+  Contact: <a href="mailto:contact@pyenb.network">contact@pyenb.network</a>
+</p>
