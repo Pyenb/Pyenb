@@ -1,3 +1,6 @@
+> [!CAUTION]
+> Hello reader, as you may have noticed, I have not been active quite some time. This is sadly due to my lack of time and some personal issues. I do still plan on being more active again in the future, but I can't give any ETA on when that will be. Thank you for your understanding!
+
 <p align="center">
   <a href="https://github.com/Pyenb" target="_blank">
     <img src="/github-metrics.svg" alt="Metrics">
@@ -21,3 +24,4 @@
     <img src="images/banner.png" width="400" />
   </a>
 </p>
+
