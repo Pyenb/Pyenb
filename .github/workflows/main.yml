@@ -29,7 +29,7 @@ jobs:
             h3 {color: #F38CFE;}
 
           # LANGUAGES
-          plugin_languages: yes
+          plugin_languages: no
           plugin_languages_sections: most-used
           plugin_languages_ignored: tex, css, html, perl, javascript
           
@@ -38,14 +38,9 @@ jobs:
           plugin_lines_history_limit: 1
           plugin_lines_repositories_limit: 4
           plugin_lines_sections: base
-
-          # REPOSITORIES
-          plugin_repositories: no
-          plugin_repositories_featured: Outlook-desktop-ad-blocker, fail2telegram, Keychron_mice_software_updater, Pi-hole-blocklist
-          plugin_repositories_order: featured
           
           # ISOCALENDAR
-          plugin_isocalendar: yes
+          plugin_isocalendar: no
           plugin_isocalendar_duration: half-year
           
           # STARS
@@ -60,13 +55,6 @@ jobs:
           plugin_wakatime_languages_other: yes
           plugin_wakatime_days: 365
           plugin_wakatime_token: ${{ secrets.WAKA }}
-          
-          # GISTS
-          plugin_gists: yes
-
-          # LEETCODE
-          plugin_leetcode: no
-          plugin_leetcode_user: Pyenb
 
           # ACHIEVEMENTS
           plugin_achievements: no
@@ -74,14 +62,9 @@ jobs:
           plugin_achievements_secrets: yes
           plugin_achievements_threshold: C
           plugin_achievements_limit: 6
-          
-          # GOOGLE PAGESPEED
-          plugin_pagespeed: no
-          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
-          plugin_pagespeed_url: https://pyenb.network
 
           # MUSIC
-          plugin_music: yes
+          plugin_music: no
           plugin_music_limit: 3
           plugin_music_mode: recent
           plugin_music_provider: spotify
@@ -118,4 +101,5 @@ jobs:
       - name: Push changes
         if: success()
         run: git push origin HEAD:master
+
 
