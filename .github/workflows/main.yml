@@ -96,13 +96,16 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git commit -am "Update"
-#          git commit -am "Replace color 58A6FF with F38CFE"
+          if git diff --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -am "Update"
+          fi
 
-      
       - name: Push changes
         if: success()
         run: git push origin HEAD:master
+
 
 
 
